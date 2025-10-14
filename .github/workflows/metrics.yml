@@ -25,6 +25,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
 
           # Options
+          user: LexxV14
           template: classic
           base: header, activity, repositories, metadata
           config_timezone: Asia/Jakarta
