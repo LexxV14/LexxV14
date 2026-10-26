@@ -9,6 +9,7 @@ on:
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
+    environment: Copilot
     permissions:
       contents: write
     steps:
