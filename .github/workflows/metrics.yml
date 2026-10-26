@@ -9,7 +9,7 @@ on:
   push: {branches: ["master", "main"]}
 jobs:
   github-metrics:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     environment: 
       name: production
     permissions:
